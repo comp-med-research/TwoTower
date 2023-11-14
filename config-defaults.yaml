@@ -1,0 +1,43 @@
+batch_size:
+    value: 1000 
+momentum:
+    value: 0.9
+max_epochs:
+    value: 1
+num_classes:
+    value: 7
+n_layers:
+    desc: number of layers for lstm
+    value: 2
+dropout_prob:
+    desc: drop out probability for lstm
+    value: 0.5
+loss:
+    value: Mean Squared Error
+lr:
+    value: 0.01
+optimizer:
+    value: Adam
+seed:
+    value: 1234
+train_data_location:
+    value: /home/hali/halimlx/Week2/datasets/final_train.csv
+    
+tokenizer_path:
+    value: /home/hali/halimlx/Week2/ms_marco/ms_spm_model.model
+    
+test_data_location:
+    value: /home/hali/halimlx/Week2/datasets/final_test.csv
+    
+val_data_location:
+    value: /home/hali/halimlx/Week2/datasets/final_val.csv
+vocab_size:
+    value: 32001
+embedding_size:
+    value: 50
+hidden_size:
+    value: 128
+output_size:
+    value: 1
+    
+    
